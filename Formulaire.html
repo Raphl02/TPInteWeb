@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <li><a href="index.html">Accueil</a></li>
+            <li class="deroulant" id="menu"><a href="#"> Nintendo &ensp;</a>
+                <ul class="sous">
+                    <li><a href="ProfLayton.html"> Professeur Layton </a></li>
+                    <li><a href="Mario Kart.html"> Mario Kart </a></li>
+                </ul>
+            </li>
+            <li class=deroulant id="menu"> <a href="#"> Playstation &ensp;</a>
+                <ul class="sous">
+                    <li><a href="Detroit.html"> Detroit : Become Human </a></li>
+                    <li><a href="GodOfWar.html"> God of War </a></li>
+                </ul>
+            </li>
+            <li class=deroulant id="menu"> <a href="#"> Xbox &ensp;</a>
+                <ul class="sous">
+                    <li><a href="Halo.html"> Halo </a></li>
+                </ul>
+            </li>
+            <li><a href="Formulaire.html">Formulaire</a></li>
+        </nav>
+    </header>
+
+    <section id="Formulaire">
+        <h1> Si vous désirez déposer un article, remplissez ce formulaire </h1>
+        <form method="get" action="result.html">
+            <label for="nom">Le nom de l'article </label>:
+            <input type="text" name="nomarticle" id="article" required="required" />
+
+            La catégorie de l'article :
+            <select name="categorie" id="article">
+                <option value=""> ~~Veuillez choisir une option~~ </option>
+                <option value="switch"> Nintendo </option>
+                <option value="playstation"> Playstation </option>
+                <option value="xbox"> Xbox </option>
+            </select> <br><br>
+
+            Le texte de l'article : <br>
+            <textarea name="text" id="article" required="required"> C'est ici pour le texte de l'article </textarea>
+            <br><br>
+
+            <label for="nom"> Le nom de l'auteur : </label>
+            <input type="text" name="auteur" id="article" required="required" />
+
+            <label for="source"> Le lien de la source : </label>
+            <input type="url" name="source" id="article" /> <br><br>
+
+            <label for="Image"> L'image mise en avant : </label>
+            <input type="file" id="article" name="image" accept="image/png, image/jpeg" required="required" /> <br><br>
+
+            <input type="submit">
+    </section>
+    </form>
+
+    <footer>
+        <section id="imgfooter">
+            <a target="_blank" href="https://www.nintendo.fr/" class="lien-nintendo">
+                <img src="Images/Footer/LogoNintendo.png" alt="Logo nintendo" title="Logo Nintendo" />
+            </a>
+            <a target="_blank" href="https://www.playstation.com/fr-fr/" class="playstation">
+                <img src="Images/Footer/LogoPS.png" alt="Logo play" title="Logo Playstation" />
+            </a>
+            <a target="_blank" href="https://www.xbox.com/fr-FR" class="lien-icone">
+                <img src="Images/Footer/LogoXbox.png" alt="Logo xbox" title="Logo XBOX" />
+            </a>
+        </section>
+        <section id="credit">
+            <h4> Par Masuna SLIMANE et Raphaël LAUNAY </h4>
+        </section>
+    </footer>
+</body>
+
+</html>
