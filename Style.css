@@ -278,6 +278,8 @@ li {
 
 body {
     background-color: #eff9ff;
+    display: flex;
+    flex-direction: column;
 }
 
 em {
@@ -348,4 +350,25 @@ footer {
 #credit {
     display: flex;
     justify-content: center;
+}
+
+#Citation{
+    background-image: url(Images/Espace.jpeg);
+    background-size: cover;
+    background-position: 75%;
+    opacity: 0.8;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Citation #Quote{
+        filter: brightness(50%)
+}
+
+#Quote, #QuoteQui{
+    color: #eff9ff;
+    text-align: center;
 }
