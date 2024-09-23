@@ -66,3 +66,27 @@ h3{
     margin-left: 20px;
     margin-right: 20px;
 }
+
+
+#QuiG{
+    width: 69%;
+}
+
+#QuiD{
+    width: 29%;
+}
+
+#Perso{
+    max-height: 200px ;
+}
+
+#ActSci, #ImgDessEnf{
+    display: flex;
+    flex-direction: row;
+    max-width: 40%;
+}
+
+#ActSci{
+    align-items: end;
+    justify-content: end;
+}

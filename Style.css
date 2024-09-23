@@ -30,19 +30,6 @@ p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#Formulaire {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 100%;
-    text-align: center;
-    background-color: #EDE2D1;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-#article {
-    margin-left: 10px;
-    margin-right: 10px;
-}
 
 textarea {
     width: 50%;
