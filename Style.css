@@ -75,36 +75,3 @@ footer {
     display: flex;
     justify-content: center;
 }
-
-#Citation{
-    background-image: url(Images/Espace.png);
-    background-size: cover;
-    background-position: 75%;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-#Quote, #QuoteQui{
-    color: #eff9ff;
-    text-align: center;
-}
-
-
-.PitiBloc {
-    text-align: center;
-    color: #eff9ff;
-    background-color: #01588b;
-    max-width: 300px;
-    padding: 3%;
-    border-radius: 30px;
-  
-    /* La bordure marquera le cercle. On
-       pourrait également utiliser un arrière-
-       plan car celui-ci aurait été contenu
-       par border-radius */
-    border: 0.5em solid black;
-  }
