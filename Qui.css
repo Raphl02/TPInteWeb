@@ -57,3 +57,33 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+
+
+
+
+
+
+
+#Blocs {
+    display: flex;
+    flex-direction: inherit;
+    justify-content: space-evenly;
+}
+
+.PitiBloc {
+    text-align: center;
+    color: #eff9ff;
+    background-color: #01588b;
+    max-width: 300px;
+    padding: 3%;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#Picto{
+    max-width: 150px;
+    max-height: 150px;
+}
