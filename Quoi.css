@@ -81,3 +81,52 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+
+#Blocs {
+    display: flex;
+    flex-direction: inherit;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.PitiBloc {
+    text-align: center;
+    color: #eff9ff;
+    background-color: #01588b;
+    max-width: 200px;
+    max-height: 200px;
+    padding: 3%;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+
+#Nous, #Blabla, #slider{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#Nous, #Blabla{
+    margin-top: 40px;}
+
+#valeurs{
+    text-align: center;
+    color: #eff9ff;
+    background-color: #01588b;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+}
+
+#TitreVal{
+    text-align: center;
+    color: #eff9ff;
+    font-size: xx-large;
+}

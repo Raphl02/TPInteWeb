@@ -96,3 +96,15 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+button{
+    color: #eff9ff;
+    border: #05304f;
+    background-color: #05304f;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
