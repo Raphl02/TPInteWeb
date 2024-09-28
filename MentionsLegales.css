@@ -18,6 +18,14 @@ a:hover{
     color: #77d2ff;
 }
 
+img{
+    border-radius: 20px;
+}
+
+#logoHeader{
+    border-radius: 0px;
+}
+
 em {
     font-style: normal;
     color: #05304f;

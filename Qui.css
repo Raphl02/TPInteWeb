@@ -83,9 +83,13 @@ footer {
     justify-content: center;
 }
 
+img{
+    border-radius: 20px;
+}
 
-
-
+#logoHeader{
+    border-radius: 0px;
+}
 
 
 
@@ -112,12 +116,12 @@ footer {
 }
 
 
-#Nous, #Blabla, #slider{
+#Nous, #Equipe, #slider{
     margin-right: 50px;
     margin-left: 50px;
 }
 
-#Nous, #Blabla{
+#Nous, #Equipe{
     margin-top: 40px;}
 
 #valeurs{

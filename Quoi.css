@@ -16,6 +16,14 @@ em {
     font-weight: bold;
 }
 
+img{
+    border-radius: 20px;
+}
+
+#logoHeader{
+    border-radius: 0px;
+}
+
 h2 {
     font-size: x-large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -106,12 +114,12 @@ footer {
 }
 
 
-#Nous, #Blabla, #slider{
-    margin-right: 50px;
-    margin-left: 50px;
+#Interventions, #Missions, #slider{
+    margin-right: 60px;
+    margin-left: 60px;
 }
 
-#Nous, #Blabla{
+#Interventions, #Missions{
     margin-top: 40px;}
 
 #valeurs{

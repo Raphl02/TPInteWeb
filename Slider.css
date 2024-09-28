@@ -1,5 +1,9 @@
 /* Début du Slider*/
 
+img{
+    border-radius: 20px;
+}
+
 .slider {
     width: 800px;
     margin: 30px auto;
